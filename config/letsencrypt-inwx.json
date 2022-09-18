@@ -1,0 +1,16 @@
+{
+    "accounts": [
+        {
+            "username": "jdoe",
+            "password": "secret",
+            "domains": [
+                "example.com"
+            ],
+            "ote": false
+        }
+    ],
+    "options": {
+        "no_dns_check": true,
+        "dns_server": "176.97.158.104"
+    }
+}

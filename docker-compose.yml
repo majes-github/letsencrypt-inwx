@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  letsencrypt-inwx:
+    build: .
+    volumes:
+      - ./config/letsencrypt:/etc/letsencrypt
+      - ./config/letsencrypt-inwx.json:/etc/letsencrypt-inwx.json
+    restart: always
